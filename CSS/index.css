@@ -1,0 +1,41 @@
+div.frm {
+  width: 90%;
+  margin: 12px auto;
+}
+div.frm div {
+  display: flex;
+  justify-content: center;
+}
+div.frm div button,
+div.frm div input {
+  margin: 5px;
+  width: 30%;
+  height: 40px;
+  font-size: large;
+  border-radius: 10px;
+}
+div.frm div.input button {
+  width: 100%;
+  color: rgb(52, 14, 88);
+}
+::placeholder {
+  text-align: center;
+}
+input {
+  text-align: center;
+}
+div.teabl {
+  width: 90%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.teabl table {
+  width: 100%;
+  text-align: center;
+}
+div.teabl table th {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(52, 14, 88);
+}
